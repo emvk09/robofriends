@@ -7,7 +7,7 @@ const CardList= (props) =>{
         <div>
             {
                 props.det.map(function (userinfo, i){
-                    return (<Card key={i} id= {props.det[i].ID} name={props.det[i].NAME} username={props.det[i].USERNAME} email={props.det[i].EMAIL}/>);
+                    return (<Card key={i} id= {props.det[i].id} name={props.det[i].name} username={props.det[i].username} email={props.det[i].email}/>);
                 })
             }
         </div>
@@ -18,12 +18,9 @@ const CardList= (props) =>{
 // const CardList= (props) =>{
 //     return(
 //         <div>
-//             <Card id= {props.det[0].ID} name={props.det[0].NAME} username={props.det[0].USERNAME} email={props.det[0].EMAIL}/>
-//             <Card id= {props.det[1].ID} name={props.det[1].NAME} username={props.det[1].USERNAME} email={props.det[1].EMAIL}/>
-//             <Card id= {props.det[2].ID} name={props.det[2].NAME} username={props.det[2].USERNAME} email={props.det[2].EMAIL}/>
-//             <Card id= {props.det[3].ID} name={props.det[3].NAME} username={props.det[3].USERNAME} email={props.det[3].EMAIL}/>
-//             <Card id= {props.det[4].ID} name={props.det[4].NAME} username={props.det[4].USERNAME} email={props.det[4].EMAIL}/>
-//             <Card id= {props.det[5].ID} name={props.det[5].NAME} username={props.det[5].USERNAME} email={props.det[5].EMAIL}/>
+//             <Card id= {props.det[0].id} name={props.det[0].name} username={props.det[0].username} email={props.det[0].email}/>
+//             <Card id= {props.det[1].id} name={props.det[1].name} username={props.det[1].username} email={props.det[1].email}/>
+//             <Card id= {props.det[2].id} name={props.det[2].name} username={props.det[2].username} email={props.det[2].email}/>
 //         </div>
 //     );
 // }

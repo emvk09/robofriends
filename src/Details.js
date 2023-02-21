@@ -1,38 +1,38 @@
 export const details= [
     {
-        ID: 1,
-        NAME: 'Edwin',
-        USERNAME:'emvk',
-        EMAIL:'emvk@gmail.com'
+        id: 1,
+        name: 'Edwin',
+        username:'emvk',
+        email:'emvk@gmail.com'
     },
     {
-        ID: 2,
-        NAME: 'Chris',
-        USERNAME:'cmvk',
-        EMAIL:'cmvk@gmail.com'
+        id: 2,
+        name: 'Chris',
+        username:'cmvk',
+        email:'cmvk@gmail.com'
     },
     {
-        ID: 3,
-        NAME: 'Bryan',
-        USERNAME:'bryan',
-        EMAIL:'bryan@gmail.com'
+        id: 3,
+        name: 'Bryan',
+        username:'bryan',
+        email:'bryan@gmail.com'
     },
     {
-        ID: 4,
-        NAME: 'Benhur',
-        USERNAME:'ben',
-        EMAIL:'ben@gmail.com'
+        id: 4,
+        name: 'Benhur',
+        username:'ben',
+        email:'ben@gmail.com'
     },
     {
-        ID: 5,
-        NAME: 'Samuel',
-        USERNAME:'samustaby',
-        EMAIL:'sam@gmail.com'
+        id: 5,
+        name: 'Samuel',
+        username:'samustaby',
+        email:'sam@gmail.com'
     },
     {
-        ID: 6,
-        NAME: 'Greg',
-        USERNAME:'greenu',
-        EMAIL:'greenu@gmail.com'
+        id: 6,
+        name: 'Greg',
+        username:'greenu',
+        email:'greenu@gmail.com'
     }
 ]
