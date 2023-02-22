@@ -1,6 +1,7 @@
 import React from "react";
-import CardList from './CardList'
-import SearchBox from './SearchBox'
+import CardList from '../components/CardList'
+import SearchBox from '../components/SearchBox'
+import Scroll from '../components/Scroll'
 // import { details } from './Details';
 
 // 1. constructor()
@@ -39,14 +40,17 @@ class App extends React.Component{
         //LOADING
 
         if  (this.state.statdetails.length === 0){ 
-            return <h1>LOADING...........</h1>
+            return <h1 className="tc">LOADING...........</h1>
         }
         else{
             return(
                 <div className="tc">
                     <h1 className="f2">RoboFriends</h1>
-                    <SearchBox sea= {this.search}/>           
-                    <CardList det= {filteredDetails}/>
+                    <SearchBox sea= {this.search}/> 
+                    <Scroll>
+                        <CardList det= {filteredDetails}/>
+                    </Scroll>        
+                    
                 </div>  // we are giving the details array not directly from the original
                         // database, but only after filtering it
             );          // before, det was, {this.state.statdetails}
