@@ -1,4 +1,4 @@
-export const details= [
+export const detailslist= [
     {
         id: 1,
         name: 'Edwin',
