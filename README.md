@@ -1,4 +1,2 @@
-# robofriends
+# robofriends- React
 search and find robots 
-
-created using React
