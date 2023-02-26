@@ -30,7 +30,7 @@ class App extends React.Component{
         })
     }
 
-    search= (event) =>{      
+    onInputChange= (event) =>{      
         this.setState({ searchfield: event.target.value });
     }
 
@@ -47,7 +47,7 @@ class App extends React.Component{
             return(
                 <div className="tc">
                     <h1 className="f2">RoboFriends</h1>
-                    <SearchBox sea= {this.search}/> 
+                    <SearchBox inputchange= {this.onInputChange}/> 
                     <Scroll>
                         
                             <CardList det= {filtereddetailslist} />
